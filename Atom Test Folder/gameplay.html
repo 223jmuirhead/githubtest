@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Portal</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="gameplay.html">Gameplay</a></li>
+        <li><a href="17.html">The Sequel</a></li>
+        <li><a href="team.html">Meet the Team</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid text-center">
+  <div class="row content">
+    <div class="col-sm-4 sidenav">
+     <div class="container-fluid"
+      <div class="well">
+        <img src="https://assets2.rockpapershotgun.com/port0sm.jpg/BROK/resize/880%3E/format/jpg/quality/80/port0sm.jpg" class="portal hueshift">
+        <p>(Click and hold to change color)</p>
+        <br>
+        <p> This is the room the game starts in.</p>
+      </div>
+    </div>
+    <div class="col-sm-6 text-left">
+      <h1>Gameplay</h1>
+      <p>Portal features very unique gameplay because of the use of portals and the portal gun. Since this concept will be new to most players the devolpers of the game made the first levels of the game show the different mechanics of portals without out right explaining it them.
+      This choice helps make the gameplay flow more organically comparred to just explaining how they work. A great example of this is shown in the first level of the game.
+      The game starts with you in a room with glass walls and no aparent exit. The only objects in the room are a futuristic bed, a radio playing a catchy tune, and a toilet.
+      Looking through the glass the player can see a timer on the wall counting down from one minuet, at the end of this timer a portal spawns letting the player out of the room. This is a deliberate choice which gives you time to take in your surroundings.
+      The devolper comentary explains how play testers thought portals took you into different locations or entire differnt dimentions when in reality they just take you to a different spot in the room.
+      The minuet spent in the starting room combined with the glass walls makes it so when the player can see themself exit the room and once they are outside they recognize the room they were in.
+      This is just one of the many ways Portal will subtly teach you new mechanics of the game.</p>
+      <hr>
+
+    </div>
+    <div class="col-sm-2 sidenav">
+      <p><a class="btn btn-primary" href="https://store.steampowered.com/app/400/Portal/" role="button">Portal's Steam Page</a></p>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <a href="team.html">Team Page</a>
+</footer>
+
+</body>
+</html>
