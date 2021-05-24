@@ -1,0 +1,30 @@
+body {
+    padding-top: 65px;
+}
+
+.portal {
+    width:580px;
+    transition: width 2s;
+}
+
+
+@keyframes hueshift {
+    from {
+        filter:hue-rotate(0deg);
+    }
+    to {
+        filter:hue-rotate(270deg)
+    }
+}
+
+.hueshift:active {
+    animation: hueshift 2s infinite alternate;
+}
+
+.dog {
+    width:300px;
+}
+
+footer {
+      padding: 25px;
+    }

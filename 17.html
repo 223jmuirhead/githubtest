@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Portal</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gameplay.html">Gameplay</a></li>
+        <li class="active"><a href="17.html">The Sequel</a></li>
+        <li><a href="team.html">Meet the Team</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid text-center">
+  <div class="row content">
+
+    <div class="col-sm-10 text-left">
+      <h1>Portal 2</h1>
+      <p>After the large success of Portal it only made sence for Valve to make a sequal. In 2011, just 4 years after the release of Portal came Portal 2. Portal 2 takes everything great about Portal and builds on it further. The graphics were updated, the game is longer, and theres more mechanics which allow for more complex puzzles. Where the orginal Portal leaned more into a creepy atmosphere with the occasional joke, Portal 2 seems to have a bigger focus on the comedy which it does greatly. Portal 2 also introduced two new modes which greatly increase the quality of the game. The first of these being a multiplayer campain. You both get a portal gun and have to work together to solve puzzles. Secondly there is a level creator, this allows you to make, share, and play your own custom test chambers which greatly increases the replayibility of the game. </p>
+      <hr>
+<img src="https://cdn.akamai.steamstatic.com/steam/apps/620/ss_6a4f5afdaa98402de9cf0b59fed27bab3256a6f4.jpg?t=1610490805" class="portal">
+    </div>
+    <div class="col-sm-2 sidenav">
+   <p><a class="btn btn-primary" href="https://store.steampowered.com/app/620/Portal_2/" role="button">Portal 2's Steam Page</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <a href="team.html">Team Page</a>
+</footer>
+
+</body>
+</html>
